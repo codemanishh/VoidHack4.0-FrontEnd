@@ -1,0 +1,113 @@
+.sidebar-container{
+    flex: 1;
+    border-right:0.5px solid rgb(230 , 227 , 227); ;
+    height: 100vh;
+}
+
+.top{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 51.6px;
+    
+}
+
+.Happy-life-Logo{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#Happy-Logo{
+    background-image: radial-gradient( circle farthest-corner at 10.2% 55.8%,  rgba(252,37,103,1) 0%, rgba(250,38,151,1) 46.2%, rgba(186,8,181,1) 90.1% );
+    background-size: 100%;
+
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#Life-logo{
+    background-image: linear-gradient( 10.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+    /* background-color: rgb(14, 107, 237); 
+    background-image: linear-gradient(to top, #07999b 0% , #0adaed 100%); */
+     background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.4rem;
+
+}
+.center{
+    padding-left: 13px;
+}
+
+hr{
+    height: 0;
+    border:0.5 px solid rgb(230 , 227 , 227) ;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title-sidebar{
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+li:hover{
+    /* background-color: #baaaf3; */
+    transition: all  0.9s;
+    background-color: #0adaed;
+    font-weight: bold;
+}
+
+li:active{
+    background-color: #0adaed;
+}
+
+.sidebar-link{
+    text-decoration: none;
+}
+
+.Link-class{
+    text-decoration: none;
+}
+
+.Dashboard-link:visited{
+    background-color: #0adaed;
+}
+
+
+
+.sidebar-icons{
+    /* color: #6439ff; */
+    color: #07999b;
+    font-size: 18px;
+}
+
+.sidebar-icon-name{
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+    margin-left: 10px;
+}

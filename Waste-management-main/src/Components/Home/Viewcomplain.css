@@ -1,0 +1,99 @@
+.Service-container{
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Employee-detail{
+    /* color: black; */
+}
+
+.service-container-data{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr ; */
+    background-color: #f3eded36;
+    height: 65vh;
+    width: 80%;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
+.service-container-data::-webkit-scrollbar{
+         display: none;
+}
+
+.services-head{
+    background-image: radial-gradient( circle farthest-corner at 10.2% 55.8%,  rgba(252,37,103,1) 0%, rgba(250,38,151,1) 46.2%, rgba(186,8,181,1) 90.1% );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    font-size: 3rem;
+    font-family: monospace;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+    color: black;
+}
+
+.service-card{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    /* margin: 8px;
+    padding: 8px; */
+}
+
+.service-icons{
+    color: #0000ffa6;
+}
+
+.Add-emp-container{
+    margin-bottom: 480px;
+    margin-left: 100px;
+}
+
+.Add-emp-btn{
+    border: none;
+    /* border: 0.5px solid black; */
+    /* margin: 12px; */
+    padding: 10px;
+    width: 150px;
+    /* background-color: #0b9ed0; */
+    background: #56CCF2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+   cursor: pointer;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+    
+
+}
+
+.Add-emp-btn:hover{
+    color:green;
+    background: white;
+    transition: 0.6s;
+    font-weight: 400;
+    
+    
+
+}

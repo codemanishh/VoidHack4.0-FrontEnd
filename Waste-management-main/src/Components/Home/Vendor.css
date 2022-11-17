@@ -1,0 +1,39 @@
+.Add-Vend-btn{
+background: #6190E8; 
+background: -webkit-linear-gradient(to right, #b2caf4, #6190E8); 
+background: linear-gradient(to right, #A7BFE8, #6190E8); 
+
+background: #f4c4f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fc67fa, #f4b2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #cb2d3e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+border: none;
+padding: 10px;
+width: 150px;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+cursor: pointer;
+color: white;
+font-weight: 500;
+border-radius: 8px;
+letter-spacing: 0.5px;
+
+
+}
+
+.Add-Vend-btn:hover{
+    color:green;
+    background: white;
+    transition: 0.6s;
+    font-weight: 400;
+    
+    
+
+}

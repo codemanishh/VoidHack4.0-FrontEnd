@@ -1,0 +1,65 @@
+.Post-complain-box{
+    background-color: #f3eded36;
+    height: 65vh;
+    width: 80%;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.Teaxt-area-complain-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.Postcomplain-btn{
+    text-align: center;
+    outline: none;
+    border: 1px solid white;
+    padding: 10px;
+    
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 12px;
+    background: #e65c00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.uploadimage-btn{
+    text-align: center;
+    outline: none;
+    border: 1px solid white;
+    padding: 10px;
+    
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 12px;
+    background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+        letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.post-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

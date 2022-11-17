@@ -1,0 +1,134 @@
+.registration-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+   /* background-color: whitesmoke; */
+   background-image: url("../Images/backgroundImg.jpg") ;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+   
+
+
+}
+
+.registration-logo-form-container{
+    background-color:white;
+    opacity: 0.8;
+    width: 65%;
+    height: 95vh;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+    border-radius: 13px;
+}
+
+/* #standard-basic{
+    margin: 12px;
+
+
+} */
+.input-field-container{
+   display: flex;
+   gap: 35px;
+   margin: 30px;
+}
+
+.input-fields{
+    margin: 10px;
+}
+
+.register-yourself-msg{
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+
+.reg-form{
+    margin-top: -40px;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.Registration-page-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+
+
+}
+
+.Registration-form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+
+.Reg-logo{
+    height: 150px;
+    width: 200px;
+}
+
+.input-btn-reg-form{
+    text-align: center;
+    outline: none;
+    border: 1px solid white;
+    padding: 10px;
+    width: 20%;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 12px;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    letter-spacing: 2px;
+    
+
+
+}
+
+
+.input-fields-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.already-reg-msg-para{
+    font-weight: 600;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: blue;
+}
+
+.show{
+    display: flex;
+    flex-direction: column;
+    color: red;
+    font-size: 8px;
+
+}
+
+.Hide{
+    display: none;
+}
+
+

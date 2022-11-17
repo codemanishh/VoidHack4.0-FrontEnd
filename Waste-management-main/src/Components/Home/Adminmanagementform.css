@@ -1,0 +1,19 @@
+#admin-options{
+    padding: 15px;
+    background-color:#0b9ed0;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.options{
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
